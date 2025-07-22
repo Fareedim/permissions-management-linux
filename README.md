@@ -1,6 +1,6 @@
-# 📂 File Permissions in Linux
+#  File Permissions in Linux
 
-## 📌 Project Description
+##  Project Description
 
 The research team at my organization needed to update file permissions for specific files and directories within the `projects` directory. The existing permissions did not reflect the appropriate level of authorization. Verifying and updating these permissions was important to help secure the system.
 
@@ -8,7 +8,7 @@ To complete this task, I performed the following steps:
 
 ---
 
-## 🔍 Check File and Directory Details
+##  Check File and Directory Details
 
 I used the following Linux command to inspect the current permissions set for the `projects` directory:
 
