@@ -5,34 +5,16 @@
 The research team at my organization needed to update file permissions for specific files and directories within the `projects` directory. The existing permissions did not reflect the appropriate level of authorization. Verifying and updating these permissions was important to help secure the system.
 
 To complete this task, I performed the following steps:
+<img width="372" height="141" alt="capturea" src="https://github.com/user-attachments/assets/da3f961c-cfd2-4323-8b26-2a5219b4213d" />
 
+The first line of the screenshot displays the command I entered, and the other lines display the output. The code lists all the contents of the `projects` directory. I used the `ls` command with the `-la` option to display a detailed listing of the file contents that also returned hidden files. The output of my command indicates that there is one directory named `drafts`, one hidden file named `.project_x.txt`, and five other project files. The 10-character string in the first column represents the permissions set on each file or directory. 
 ---
 
 ##  Check File and Directory Details
 
 I used the following Linux command to inspect the current permissions set for the `projects` directory:
 
-```bash
-ls -la /path/to/projects
-```
 
-This command:
-
-- Lists all contents of the directory in detail
-- Includes hidden files (those starting with a dot `.`)
-- Displays a 10-character string representing the permissions for each item
-
-### Example Output (Illustrative):
-```
-drwxr-xr--  2 researcher2 group   4096 Jul 21 09:00 drafts
--rw-rw-r--  1 researcher2 group   1200 Jul 21 09:00 project_a.txt
--rw-rw-r--  1 researcher2 group   800  Jul 21 09:00 project_b.txt
--rw-rw-r--  1 researcher2 group   950  Jul 21 09:00 project_k.txt
--rw-rw-r--  1 researcher2 group   1300 Jul 21 09:00 project_t.txt
--rw-rw-r--  1 researcher2 group   1000 Jul 21 09:00 project_z.txt
--rw-rw-r--  1 researcher2 group   1100 Jul 21 09:00 project_q.txt
--rw-rw-r--  1 researcher2 group   1150 Jul 21 09:00 .project_x.txt
-```
 
 ---
 
