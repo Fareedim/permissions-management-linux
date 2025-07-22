@@ -12,7 +12,7 @@ To complete this task, I performed the following steps:
 
 I used the following Linux command to inspect the current permissions set for the `projects` directory:
 
-<img src="https://github.com/user-attachments/assets/da3f961c-cfd2-4323-8b26-2a5219b4213d" alt="capturea" style="width: 100%;" />
+<img src="https://github.com/user-attachments/assets/da3f961c-cfd2-4323-8b26-2a5219b4213d" alt="capturea" style="width: 80%;" />
 
 
 The first line of the screenshot displays the command I entered, and the other lines display the output. The code lists all the contents of the `projects` directory. I used the `ls` command with the `-la` option to display a detailed listing of the file contents that also returned hidden files. The output of my command indicates that there is one directory named `drafts`, one hidden file named `.project_x.txt`, and five other project files. The 10-character string in the first column represents the permissions set on each file or directory.
